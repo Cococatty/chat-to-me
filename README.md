@@ -1,6 +1,16 @@
 # chat-to-me
 Chat-to-Me is a repository to demonstrate and explore my NLP domain knowledge.
 
+## Table of Content
+* [Pre-requisite](#pre-requisite)
+* [Set up the running environment](#set-up-the-running-environment)
+* [data](#data)
+   * [data sources (credit)](#data-sources-credit)
+* [basic_nlp](#basic_nlp)
+* [emoji_this](#emoji_this)
+* [question_answer](#question_answer)
+* [tests](#tests)
+
 # Pre-requisite
 - Python3
 - Pip3
@@ -31,3 +41,6 @@ Aiming to build a ChatBot that can answer basic questions by using question-answ
 
 # tests
 I prefer to include unit tests as I develop. Therefore, this module contains some important unit tests for the functions included in this repo.
+
+# Credit
+- Table of Content: https://github.com/ekalinin/github-markdown-toc
