@@ -7,9 +7,12 @@ Chat-to-Me is a repository to demonstrate and explore my NLP domain knowledge.
 * [data](#data)
    * [data sources (credit)](#data-sources-credit)
 * [basic_nlp](#basic_nlp)
+* [extract_info](#extract_info)
 * [emoji_this](#emoji_this)
 * [question_answer](#question_answer)
+* [web_scraping](#web_scraping)
 * [tests](#tests)
+
 
 # Pre-requisite
 - Python3
@@ -33,11 +36,15 @@ at-the-bay.txt: https://raw.githubusercontent.com/ucdh/scraping-garden-party/mas
 # basic_nlp
 Develop functions that perform basic NLP and utilities tasks.
 
+# extract information
+
 # emoji_this
 Aiming to dig deeper meanings behind emoji by using NLP and Data Science.
 
 # question_answer
 Aiming to build a ChatBot that can answer basic questions by using question-answer model.
+
+# web scraping
 
 # tests
 I prefer to include unit tests as I develop. Therefore, this module contains some important unit tests for the functions included in this repo.
