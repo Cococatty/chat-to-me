@@ -1,0 +1,6 @@
+# words_base
+editdistance-0.6.2
+
+# question_answer
+torch==2.0.1
+transformers==4.29.1
