@@ -15,9 +15,11 @@ def calc_edit_distance(keyword: str, words: list):
     return result
 
 
-def pattern_matching(pattern, sample_str):
+def pattern_matching(pattern, full_str, surpress=True):
+    """Return all matching instances"""
     import requests
     import re
-    result = re.findall(pattern, sample_str)
-    print('Total matches:',len(result))
+    result = re.findall(pattern, full_str)
+    if surpress: 
+        result = list(set(result))
     return result
